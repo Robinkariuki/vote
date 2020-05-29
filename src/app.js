@@ -3,7 +3,7 @@ import Result from './components/Results';
 import {connect} from 'react-redux';
 
 const App =(props)=>{
-    console.log(props.state)
+    // console.log(props.state)
     return(
         <div>
             <Result state={props.state}/>
