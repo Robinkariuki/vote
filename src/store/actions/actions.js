@@ -1,16 +1,22 @@
-import {Vote_PC,Vote_Playstation,Vote_Xbox} from './actionsType';
-
-const Voteplaystation =()=>{
-    type = Vote_Playstation
+import *as actionType from './actionsType';
+export const VotePlaystation =()=>{
+    return{
+        type : actionType.Vote_Playstation
+    }
+    
 }
 
-const VotePc =()=>{
-    type = Vote_PC
+export const VotePc =()=>{
+    return{
+        type : actionType.Vote_PC
+    }
+    
 }
 
-const VoteXbox =()=>{
-    type = Vote_Xbox
+export const VoteXbox =()=>{
+    return{
+        type : actionType.Vote_Xbox
+    }
 }
 
 
-export default {Voteplaystation,VoteXbox,VotePc};

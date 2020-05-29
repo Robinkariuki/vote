@@ -1,11 +1,12 @@
 import React from 'react'
-import Home from './components/home';
+import Result from './components/Results';
 import {connect} from 'react-redux';
 
-const App =()=>{
+const App =(props)=>{
+    console.log(props.state)
     return(
         <div>
-            <Home/>
+            <Result state={props.state}/>
         </div>
     )
 }
@@ -13,8 +14,12 @@ const App =()=>{
 
 
 
-const mapStateToProps =state=>{
+const mapStateToProps =state=>({
+    playstation:state.playstation,
+    state
       
-}
+})
+
+
 
 export default connect(mapStateToProps)(App);

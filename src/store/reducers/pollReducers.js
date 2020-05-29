@@ -1,4 +1,4 @@
-import {Vote_PC,Vote_Playstation,Vote_Xbox} from './actionsType';
+import *as actionType from '../actions/actionsType';
 
 
 
@@ -11,16 +11,16 @@ const initialState ={
 
 const pollReducer=(state=initialState,action)=>{
     switch(action.type){
-        case Vote_Playstation:
+        case actionType.Vote_Playstation:
             console.log('Your choice is Playstation!')
             return Object.assign({},state,{playstation:state.playstation+1})
         
         
-        case Vote_Xbox:
+        case actionType.Vote_Xbox:
             console.log('Your choice is Xbox!')
             return Object.assign({},state,{Xbox:state.Xbox+1})
         
-        case Vote_PC:
+        case actionType.Vote_PC:
              console.log('Your choice is PC!')
              return Object.assign({},state,{PC:state.PC+1})    
         
