@@ -1,12 +1,13 @@
 import React from 'react'
-import Result from './components/Results';
+import Vote from './components/vote';
 import {connect} from 'react-redux';
-
+import Results from './components/results'
 const App =(props)=>{
     // console.log(props.state)
     return(
         <div>
-            <Result state={props.state}/>
+            <Vote state={props.state}/>
+            <Results state={props.state}/>
         </div>
     )
 }

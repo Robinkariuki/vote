@@ -5,7 +5,7 @@ import pc from '../images/pc.jpeg'
 import ps from '../images/Ps.jpeg'
 import Xbox from '../images/Xbox.jpg'
 import con from '../images/con.png'
-class Result extends Component{
+class Vote extends Component{
 
     handleVotePc =()=>{
         this.props.PC()
@@ -20,7 +20,7 @@ class Result extends Component{
 
 
     render(){
-        console.log(this.props.state.playstation)
+        console.log(this.props.state)
         return(
             
             <div className='container'>
@@ -50,11 +50,11 @@ class Result extends Component{
 
 const mapDispatchToProps = dispatch =>{
     return {
-        playstation:dispatch(VotePlaystation()),
-        Xbox: dispatch(VoteXbox()),
-        PC: dispatch(VotePc())
+        playstation:()=>dispatch(VotePlaystation()),
+        Xbox: ()=>dispatch(VoteXbox()),
+        PC: ()=>dispatch(VotePc())
     }
     
 }
 
-export default connect(null,mapDispatchToProps)(Result)
+export default connect(null,mapDispatchToProps)(Vote)
