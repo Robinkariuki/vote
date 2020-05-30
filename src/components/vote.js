@@ -20,7 +20,7 @@ class Vote extends Component{
 
 
     render(){
-        console.log(this.props.state)
+        console.log(this.props.state.PC)
         return(
             
             <div className='container'>
