@@ -56,15 +56,15 @@ class Results extends Component {
         return(<div>
                     <span className="label label-danger">playstation: {this.VotesInPercentagePlaystation().toFixed(2) + '%'}</span>
         <div className="progress progress-striped active">
-          <div className="progress-bar progress-bar-danger" style={this.votesplaystationInPercentageStyle()}></div>
+          <div className="progress-bar bg-danger progress-bar-animated" style={this.votesplaystationInPercentageStyle()}></div>
         </div>
         <span className="label label-info">Xbox: {this.VotesInPercentageXbox().toFixed(2) + '%'}</span>
         <div className="progress progress-striped active">
-          <div className="progress-bar progress-bar-info" style={this.votesXboxInPercentageStyle()}></div>
+          <div className="progress-bar bg-success progress-bar-animated" style={this.votesXboxInPercentageStyle()}></div>
         </div>
         <span className="label label-success">PC: {this.VotesInPercentagePC().toFixed(2) + '%'}</span>
         <div className="progress progress-striped active">
-          <div className="progress-bar progress-bar-success" style={this.votesPcInPercentageStyle()}></div>
+          <div className="progress-bar progress-bar-success " style={this.votesPcInPercentageStyle()}></div>
         </div>
        
 
