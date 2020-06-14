@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/vote/static/js/main.92d2710d.chunk.js",
+    "main.js.map": "/vote/static/js/main.92d2710d.chunk.js.map",
+    "runtime-main.js": "/vote/static/js/runtime-main.a9c824b8.js",
+    "runtime-main.js.map": "/vote/static/js/runtime-main.a9c824b8.js.map",
+    "static/js/2.b9c20aff.chunk.js": "/vote/static/js/2.b9c20aff.chunk.js",
+    "static/js/2.b9c20aff.chunk.js.map": "/vote/static/js/2.b9c20aff.chunk.js.map",
+    "index.html": "/vote/index.html",
+    "precache-manifest.4b344fdce9c8130743d2e042b1a9c0ff.js": "/vote/precache-manifest.4b344fdce9c8130743d2e042b1a9c0ff.js",
+    "service-worker.js": "/vote/service-worker.js",
+    "static/js/2.b9c20aff.chunk.js.LICENSE.txt": "/vote/static/js/2.b9c20aff.chunk.js.LICENSE.txt",
+    "static/media/Ps.jpeg": "/vote/static/media/Ps.090cca5f.jpeg",
+    "static/media/Xbox.jpg": "/vote/static/media/Xbox.db1755ff.jpg",
+    "static/media/con.png": "/vote/static/media/con.a96f4f3c.png",
+    "static/media/pc.jpeg": "/vote/static/media/pc.b623dc1d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9c824b8.js",
+    "static/js/2.b9c20aff.chunk.js",
+    "static/js/main.92d2710d.chunk.js"
+  ]
+}
