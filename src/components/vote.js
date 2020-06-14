@@ -30,14 +30,14 @@ class Vote extends Component{
           <h4>Click on the logos below to vote!</h4>
           <br />
           <div className="row">
-            <div className="col-6 col-md-4">
-              <img src={ps} height="96" alt="playstation" onClick={this.handleVotePlaystation}></img>
+            <div className="col-6 col-md-4 view">
+              <img src={ps} height="96" alt="playstation" onClick={this.handleVotePlaystation} className="hoverable"></img>
             </div>
             <div className="col-6 col-md-4">
-              <img src={pc} height="96" alt="pc" onClick={this.handleVotePc}></img>
+              <img src={pc} height="96" alt="pc" onClick={this.handleVotePc} className="hoverable"></img>
             </div>
             <div className="col-6 col-md-4">
-              <img src={Xbox} height="96" alt="xbox" onClick={this.handleVoteXbox}></img>
+              <img src={Xbox} height="96" alt="xbox" onClick={this.handleVoteXbox}className="hoverable"></img>
             </div>
             </div>
             </div>
