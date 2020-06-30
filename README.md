@@ -5,7 +5,7 @@ Robin kariuki
 ## Description
 A polling application built in reactjs,where you can vote for your preferred gaming option.
 ## Screenshot
-![Alt text](src/images/poll.png?raw=true "Weather")
+![Alt text](src/images/poll.png?raw=true "Polling")
 ## Getting started
 - Fork the project and clone it locally.
 - Install dependencies using the command `npm install`
