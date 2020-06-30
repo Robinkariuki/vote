@@ -1,4 +1,4 @@
-# Weather Application
+# Polling Application
 
 ## Author
 Robin kariuki
